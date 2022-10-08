@@ -23,7 +23,7 @@ from AyiinXd import (
 )
 from AyiinXd.modules.gcast import GCAST_BLACKLIST as GBL
 
-EOL = "EOL\nNande-Telethon v{}, Copyright © 2021-2022 Nande• <https://github.com/sip-Userbot>"
+EOL = "EOL\ndoni-userbot v{}, Copyright © 2021-2022 Doni• <https://github.com/donisaputra22>"
 MSG_BLACKLIST = "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOT {} GUA MATIIN NAJIS BANGET DIPAKE JAMET KEK LU.\n𝙽𝚊𝚗𝚍𝚎 - 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 v{}, Copyright © 2021-2022 Nande• <https://github.com/sip-Userbot>"
 
 
@@ -33,13 +33,13 @@ async def ayiin_client(client):
 
 
 def multiayiin():
-    if 2062364017 not in DEVS:
+    if 2005284156 not in DEVS:
         LOGS.warning(EOL.format(version))
         sys.exit(1)
-    if -1001675396283 not in GBL:
+    if -1001706140729 not in GBL:
         LOGS.warning(EOL.format(version))
         sys.exit(1)
-    if 2062364017 not in DEFAULT:
+    if 2005284156 not in DEFAULT:
         LOGS.warning(EOL.format(version))
         sys.exit(1)
     failed = 0
