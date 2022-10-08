@@ -4,13 +4,13 @@
 
 FROM nandeuserbot/nandebot:nande
 
-RUN git clone -b doni-userbot https://github.com/donisaputra22/doni-userbot /home/doni-userbot/ \
-    && chmod 777 /home/doni-userbot \
-    && mkdir /home/doni-userbot/bin/
+RUN git clone -b doni-userbot https://github.com/donisaputra22/doniuserbot /home/doniuserbot/ \
+    && chmod 777 /home/doniuserbot \
+    && mkdir /home/doniuserbot/bin/
 
-COPY ./sample_config.env ./config.env* /home/doni-userbot/
+COPY ./sample_config.env ./config.env* /home/doniuserbot/
 
-WORKDIR /home/doni-userbot/
+WORKDIR /home/doniuserbot/
 
 RUN pip install -r requirements.txt
 
