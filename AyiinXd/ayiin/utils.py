@@ -135,7 +135,7 @@ async def autobot():
             sys.exit(1)
     filogo = random.choice(
           [
-              "https://telegra.ph/file/53edd7697e5ada4954a1c.jpg",
+              "https://telegra.ph/file/2ba9d146ff35f6e6eafd6.jpg",
               "AyiinXd/resources/IMG-20220829-WA0011.jpg",
           ]
     )
