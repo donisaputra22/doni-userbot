@@ -1,4 +1,4 @@
- <h1 align="center">💥 Doni - Userbot 💥</h1>
+ <h1 align="center">✨ Doni - Userbot ✨</h1>
 
 <a href="https://github.com/donisaputra22/doni-userbot/commits"> <img src="https://img.shields.io/github/last-commit/donisaputra22/doni-userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/donisaputra22/doni-userbot)
