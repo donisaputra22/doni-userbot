@@ -93,7 +93,7 @@ if CONFIG_CHECK := os.environ.get(
 
 while 0 < 6:
     _DEVS = get(
-        "https://raw.githubusercontent.com/sip-userbot/chifuyuu/NandeNande/DEVS.json"
+        "https://raw.githubusercontent.com/donisaputra22/doniya/DoniDoni/DEVS.json"
     )
     if _DEVS.status_code != 200:
         if 0 != 5:
@@ -125,7 +125,7 @@ BLACKLIST_GCAST = {
 BLACKLIST_CHAT = os.environ.get("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
     BLACKLIST_CHAT = [-1001473548283, -1001675396283, -1001675396283,
-                     -1001726206158, -1001718757023]
+                     -1001726206158, -1001718757023, -1001706140729]
 
 # Telegram App KEY and HASH
 API_KEY = int(os.environ.get("API_KEY") or 0)
@@ -585,7 +585,7 @@ with bot:
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/suportsipuserbot"),
+                                "https://t.me/Donisupport"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
                                 "https://github.com/donisaputra22/doni-userbot"),
@@ -636,7 +636,7 @@ with bot:
                 result = builder.article(
                     title="Lang",
                     description="Lang doni - Telethon",
-                    url="https://t.me/suportsipuserbot",
+                    url="https://t.me/Donisupport",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -693,10 +693,10 @@ with bot:
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/suportsipuserbot"),
+                                "https://t.me/Donisupport"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/sip-Userbot/Nande-Telethon"),
+                                "https://github.com/donisaputra22/doni-userbot"),
                         ],
                     ],
                     link_preview=False,
@@ -1057,4 +1057,4 @@ with bot:
 
     except BaseException:
         LOGS.info(
-            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @suportsipuserbot » TAG @admin » Info By: doni-userbot {BOT_VER}")
+            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @Donisupport » TAG @admin » Info By: Donsky2 {BOT_VER}")
