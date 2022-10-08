@@ -24,7 +24,7 @@ from AyiinXd import (
 from AyiinXd.modules.gcast import GCAST_BLACKLIST as GBL
 
 EOL = "EOL\ndoni-userbot v{}, Copyright © 2021-2022 Doni• <https://github.com/donisaputra22>"
-MSG_BLACKLIST = "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOT {} GUA MATIIN NAJIS BANGET DIPAKE JAMET KEK LU.\n𝙽𝚊𝚗𝚍𝚎 - 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 v{}, Copyright © 2021-2022 Nande• <https://github.com/sip-Userbot>"
+MSG_BLACKLIST = "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOT {} GUA MATIIN NAJIS BANGET DIPAKE JAMET KEK LU.\nDoni - 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 v{}, Copyright © 2021-2022 Doni• <https://github.com/donisaputra22>"
 
 
 async def ayiin_client(client):
