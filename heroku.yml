@@ -1,5 +1,5 @@
 build: 
   docker:
-     nande: Dockerfile
+     worker: Dockerfile
 run:
-   nande: bash start
+   worker: bash start
