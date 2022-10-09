@@ -1,14 +1,16 @@
-#kontol
+#==============×==============#
+#      Created by: Nande
+#=========× Nande ×=========#
 
-FROM doniuserbot/nandebot:nande
+FROM nandeuserbot/nandebot:nande
 
-RUN git clone -b doni-userbot https://github.com/donisaputra22/doni-userbot /home/doniuserbot/ \
-    && chmod 777 /home/doniuserbot \
-    && mkdir /home/doniuserbot/bin/
+RUN git clone -b Nande-Telethon https://github.com/donisaputra22/doni-userbot /home/nandetelethon/ \
+    && chmod 777 /home/nandetelethon \
+    && mkdir /home/nandetelethon/bin/
 
-COPY ./sample_config.env ./config.env* /home/doniuserbot/
+COPY ./sample_config.env ./config.env* /home/nandetelethon/
 
-WORKDIR /home/doniuserbot/
+WORKDIR /home/nandetelethon/
 
 RUN pip install -r requirements.txt
 
