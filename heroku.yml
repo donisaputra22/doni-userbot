@@ -1,5 +1,9 @@
-build: 
+build:
+
   docker:
-     worker: Dockerfile
+
+      worker: Dockerfile
+
 run:
-   worker: bash start
+
+   worker: python3 -m userbot
