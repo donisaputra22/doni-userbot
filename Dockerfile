@@ -2,16 +2,12 @@
 #      Created by: Nande
 #=========× Nande ×=========#
 
-FROM nandeuserbot/nandebot:nande
+FROM kyyex/kyy-userbot:busterv2
+#━━━━━ Userbot Telegram ━━━━━
+#━━━━━ By Kyuraa-Userbot ━━━━━
 
-RUN git clone -b doni-userbot https://github.com/donisaputra22/doniuserbot /home/doniuserbot/ \
-    && chmod 777 /home/doniuserbot \
-    && mkdir /home/doniuserbot/bin/
-
-COPY ./sample_config.env ./config.env* /home/doniuserbot/
-
-WORKDIR /home/doniuserbot/
-
-RUN pip install -r requirements.txt
-
-CMD ["bash","start"]
+RUN apt-get update && apt-get upgrade -y
+RUN apt-get install ffmpeg -y
+RUN git clone -b doni-userbot https://github.com/donisaputra22/doni-userbot /root/userbot
+RUN mkdir /root/userbot/.bin
+RUN pip install --upgrade pip setuptools
