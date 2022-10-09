@@ -1,6 +1,6 @@
 #kontol
 
-FROM doniuserbot/donibot:doni
+FROM doniuserbot/nandebot:nande
 
 RUN git clone -b doni-userbot https://github.com/donisaputra22/doni-userbot /home/doniuserbot/ \
     && chmod 777 /home/doniuserbot \
