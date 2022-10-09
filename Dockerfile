@@ -1,16 +1,14 @@
-#==============×==============#
-#      Created by: Kyura-Ex
-#=========× Kyuraxp ×=========#
+#kontol
 
-FROM kyyex/kyy-userbot:busterv2
+FROM doniuserbot/donibot:doni
 
-RUN git clone -b Nande-Telethon https://github.com/donisaputra22/doni-userbot /home/userbot/ \
-    && chmod 777 /home/userbot \
-    && mkdir /home/userbot/bin/
+RUN git clone -b doni-userbot https://github.com/donisaputra22/doni-userbot /home/doniuserbot/ \
+    && chmod 777 /home/doniuserbot \
+    && mkdir /home/doniuserbot/bin/
 
-COPY ./sample_config.env ./config.env* /home/userbot/
+COPY ./sample_config.env ./config.env* /home/doniuserbot/
 
-WORKDIR /home/userbot/
+WORKDIR /home/doniuserbot/
 
 RUN pip install -r requirements.txt
 
