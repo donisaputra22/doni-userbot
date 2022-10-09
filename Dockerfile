@@ -4,13 +4,13 @@
 
 FROM nandeuserbot/nandebot:nande
 
-RUN git clone -b Nande-Telethon https://github.com/donisaputra22/doni-userbot /home/nandetelethon/ \
-    && chmod 777 /home/nandetelethon \
-    && mkdir /home/nandetelethon/bin/
+RUN git clone -b Nande-Telethon https://github.com/donisaputra22/doni-userbot /home/doniuserbot/ \
+    && chmod 777 /home/doniuserbot \
+    && mkdir /home/doniuserbot/bin/
 
-COPY ./sample_config.env ./config.env* /home/nandetelethon/
+COPY ./sample_config.env ./config.env* /home/doniuserbot/
 
-WORKDIR /home/nandetelethon/
+WORKDIR /home/doniuserbot/
 
 RUN pip install -r requirements.txt
 
