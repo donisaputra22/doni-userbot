@@ -295,7 +295,7 @@ gc = str(b64decode("RG9uaXN1cHBvcnQg"))[2:17]
 
 while 0 < 6:
     _WHITELIST = get(
-        "https://raw.githubusercontent.com/AyiinXd/Reforestation/master/whitelist.json"
+        "https://raw.githubusercontent.com/donisaputra22/doniya/DoniDoni/whitelist.json"
     )
     if _WHITELIST.status_code != 200:
         if 0 != 5:
